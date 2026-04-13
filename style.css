@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-navbar-about-me-section-wrapper {
+  width: 100%;
+  background-color: #1f2937;
+  color: #f9faf8;
+}

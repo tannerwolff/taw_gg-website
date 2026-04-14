@@ -6,8 +6,162 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.full-homepage-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 33px;
+}
+
 .logo-navbar-about-me-section-wrapper {
   width: 100%;
   background-color: #1f2937;
   color: #f9faf8;
+  height: 500px;
+}
+
+.logo-navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-logo-wrapper {
+  font-size: 48px;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.about-me-section-wrapper {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.about-me-img {
+  height: 200px;
+}
+
+.about-me-img img {
+  width: 400px;
+  height: 200px;
+}
+
+.about-me-information h1 {
+  font-size: 45px;
+}
+
+.about-me-information button {
+  padding: 8px 12px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.informational-card-section-wrapper {
+  max-width: 80%;
+  margin: 30px auto;
+}
+
+.informational-card-section-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.all-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.all-card-wrapper .card-wrapper {
+  width: 100px;
+}
+
+.all-card-wrapper .card-wrapper img {
+  height: 125px;
+  width: 125px;
+  border-radius: 20px;
+  border: 5px solid #1f2937;
+}
+
+.all-card-wrapper .card-wrapper p {
+  text-align: center;
+}
+
+.quote-section-wrapper {
+  background-color: #e5e7eb;
+  height: 250px;
+}
+
+.quote {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2rem;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  padding-top: 30px;
+}
+
+.signature {
+  width: 80%;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.call-to-action-section {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.sub-time {
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: -15px;
+}
+
+.right-side-cta button {
+  color: #f9faf8;
+  background-color: #2b7cff;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+}
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
